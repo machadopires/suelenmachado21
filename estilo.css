@@ -1,0 +1,68 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+
+
+}
+
+body{
+background-image: url(img/praia22.webp);
+
+}
+
+
+.album {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:2vw;
+    padding: 2vw;
+}
+
+.foto-album img{
+    
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.foto-album{
+    cursor: url(img/cursor.cur), default;
+filter: saturate(0);
+width: 340px;
+height: 340px;
+border:5px solid rgb(30, 0, 255);
+flex-grow:  1;
+box-shadow: 5px 5px 5px palevioletred;
+transition: transform .1s;
+
+
+
+
+
+}
+
+.foto-album:hover{
+
+filter: brightness(1);
+transform:  scale(1.3);
+border:3px ridge blue
+}
+
+h1{
+font-size: 50px;
+text-align: center;
+
+}
+
+p{
+    font-size: 25px;
+
+}
+
+footer{
+    background-color: aqua;
+}
